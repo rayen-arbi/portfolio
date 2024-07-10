@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgba(21,21,21,255); 
+}
+.page1{
+    background-color: rgba(21,21,21,255);
+    color: white;
+    font-family:Poppins ;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.navbar h1{
+    margin-left: 90px;
+}
+.logo{
+    margin-right: 90px;
+    display: flex;
+    gap: 25px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.content h1{
+    font-weight: 900;
+    margin-left: 90px;
+    font-size: 60px;
+    text-align: center;
+}
+.name{
+    text-decoration: underline #8bc6aa;
+}
+.content p{
+    font-size: 25px;
+    color: rgb(160, 160, 160);
+    margin-left: 90px;
+    text-align: center;
+    font-weight: 900;
+
+}
+.content img{
+    height: 100%;
+    width: 450px;
+    margin-right: 90px;
+    border-radius: 20px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 90px;
+    font-weight: 600;
+
+}
+.content a:hover{
+    color: #88c7ac;
+    font-size: 24px;
+}
+.page2{
+    background-color: rgba(21,21,21,255);
+    color: white;
+    font-family:Poppins ;
+    height: 280vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.ligne{
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+}
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sp{
+    margin: 90px;
+    color: rgb(197, 194, 194);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: underline #88c7ac 3px;
+    margin: 90px;
+}
+.nav h1{
+    margin: 90px;
+}
+.nav a:hover{
+    color: #88c7ac;
+    font-size: 20px;
+}
+.projects{
+    display: grid;
+    grid-template-columns:1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 300px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.projects img{
+    margin-top: 40px;
+    height: 400px;
+    width: 600px;
+}
+.page3{
+    background-color: #242424;
+    color: white;
+    font-family:Poppins ;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact h1{
+    font-weight: 900;
+    margin-left: 90px;
+    font-size: 60px;
+    text-align: center;
+}
+.contact p{
+    font-size: 25px;
+    color: rgb(160, 160, 160);
+    margin-left: 90px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.inscrition a{
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: underline #88c7ac 3px;
+}
+.inscrition{
+    margin-bottom: 50px;
+    margin-right: 90px;
+
+}
+.ligne2{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.inscrition input{
+    background-color: #242424;
+    border: #242424;
+    height: 50px;
+    color: white;
+}
+@media (width < 688px) {
+    .page1{
+        height: 150vh;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar h1{
+        margin-left: 0px;
+    }
+    .logo{
+        margin-right: 0px;
+        display: flex;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    .content{ 
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+    .content h1{
+        font-weight: 500;
+        margin-left: 0px;
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 20px;
+        margin-left: 0px;
+        font-weight: 600;
+    }
+    .content img{
+        width: 350px;
+        margin-right: 0px;
+    }
+    .content a{
+        margin-left: 20px;
+    }
+    .content2{
+    
+        flex-direction: column;
+    }
+    .sp{
+        margin: 20px;
+        color: rgb(197, 194, 194);
+    }
+    .nav a{
+        margin: 70px;
+    }
+    .nav h1{
+        margin: 20px;
+    }
+    .page2{
+        height: 450vh;
+    }
+    .projects{
+        grid-template-columns:1fr ;
+        grid-template-rows: 1fr ;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .projects img{
+        margin-top: 40px;
+        height: 350px;
+        width: 100%;
+    }
+    .page3{
+        height: 100vh;
+    }
+    .contact{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .contact h1{
+        margin-left: 0px;
+    }
+    .contact p{
+        margin-left: 20px;
+    }
+}
+@media ( 688px< width <1312px){
+    .page1{
+        height: 90vh;
+    }
+    .navbar h1{
+        margin-left: 20px;
+    }
+    .logo{
+        margin-right: 20px;
+    }
+    .content h1{
+        font-weight: 500;
+        margin-left: 0px;
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 20px;
+        margin-left: 0px;
+        font-weight: 600;
+    }
+    .content img{
+        width: 350px;
+        margin-right: 0px;
+    }
+    .content a{
+        margin-left: 20px;
+    }
+    .sp{
+        margin: 20px;
+        color: rgb(197, 194, 194);
+    }
+    .nav a{
+        margin: 70px;
+    }
+    .nav h1{
+        margin: 20px;
+    }
+    .page2{
+        height: 250vh;
+    }
+    .projects{
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 40px;
+    }
+    .projects img{
+        margin-top: 40px;
+        height: 350px;
+        width: 100%;
+    }
+    .page3{
+        height: 100vh;
+    }
+    .contact{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .contact h1{
+        margin-left: 0px;
+    }
+    .contact p{
+        margin-left: 20px;
+    }
+}
